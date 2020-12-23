@@ -118,7 +118,8 @@ addon.Cooldowns = {
     [32375] = { duration = 45, class = "PRIEST" }, -- Mass Dispel
 
         -- Discipline
-
+        [316262] = { duration = 90, class = "PRIEST" }, -- Thoughtsteal
+        [32379] = { duration = 16, class = "PRIEST" }, -- Shadow Word: Death
         [8122] = { duration = 30, class = "PRIEST", specID = { 256, 257, 258 } }, -- Psychic Scream
         [10060] = { duration = 120, class = "PRIEST", specID = { 256, 258 } }, -- Power Infusion
         [33206] = { duration = 180, class = "PRIEST", specID = { 256 } }, -- Pain Suppression
@@ -149,7 +150,6 @@ addon.Cooldowns = {
 
         [15286] = { duration = 120, class = "PRIEST", specID = { 258 } }, -- Vampiric Embrace
         [15487] = { duration = 45, class = "PRIEST", specID = { 258 } }, -- Silence
-        [32379] = { duration = 9, class = "PRIEST", specID = { 258 }, charges = 2 }, -- Shadow Word: Death
         [47585] = { duration = 120, class = "PRIEST", specID = { 258 } }, -- Dispersion
         [64044] = { duration = 45, class = "PRIEST", specID = { 258 } }, -- Psychic Horror
         [108968] = { duration = 300, class = "PRIEST", specID = { 258 } }, -- Void Shift

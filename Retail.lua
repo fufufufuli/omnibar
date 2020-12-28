@@ -7,10 +7,15 @@ addon.Resets = {
          - Spell Lock
       ]]
     [111897] = { 119910 },
+    [32379] = { 322107,347159,51818,32409 },
+    [316262] = { 322431 },
+    [319217] = {320225,320224,320226,320221,348121},
 }
 
 addon.Cooldowns = {
-
+    [319217] = { default = true, duration = 600, class = "MAGE" }, -- 法夜复活
+    [32379] = { default = true,  duration = 16, class = "PRIEST" }, -- 灭
+    [316262] = { default = true,  duration = 90, class = "PRIEST" }, -- 思维窃取
     -- Death Knight
 
     [47528] = { default = true, duration = 15, class = "DEATHKNIGHT" }, -- Mind Freeze
@@ -149,7 +154,6 @@ addon.Cooldowns = {
 
         [15286] = { duration = 120, class = "PRIEST", specID = { 258 } }, -- Vampiric Embrace
         [15487] = { duration = 45, class = "PRIEST", specID = { 258 } }, -- Silence
-        [32379] = { duration = 9, class = "PRIEST", specID = { 258 }, charges = 2 }, -- Shadow Word: Death
         [47585] = { duration = 120, class = "PRIEST", specID = { 258 } }, -- Dispersion
         [64044] = { duration = 45, class = "PRIEST", specID = { 258 } }, -- Psychic Horror
         [108968] = { duration = 300, class = "PRIEST", specID = { 258 } }, -- Void Shift
